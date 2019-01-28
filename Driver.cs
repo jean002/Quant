@@ -26,7 +26,7 @@ namespace Quantum.Polynom
 			{
 				using (var sim = new QuantumSimulator())
 				{
-                    var res = findPolynomialS.Run(sim).Result;
+                                        var res = findPolynomialS.Run(sim).Result;
 					Console.WriteLine(res);
 
 					//The variable "matchcount" counts the number of times the unknown coefficients match the
